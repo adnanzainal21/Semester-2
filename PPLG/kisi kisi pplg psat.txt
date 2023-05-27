@@ -1,0 +1,178 @@
+===================================
+KISI KISI PPLG PSAT 2023
+===================================
+1	Struktur pemrograman adalah organisasi atau tata letak dari instruksi-instruksi yang membentuk program komputer. Struktur ini membantu mengatur alur eksekusi program dan mempermudah pengembangan, pemahaman, serta pemeliharaan program secara keseluruhan. Berikut ini adalah beberapa struktur pemrograman umum yang digunakan dalam pengembangan perangkat lunak:
+
+1. Sekuensial: Ini adalah struktur paling dasar dalam pemrograman. Instruksi-instruksi dieksekusi secara berurutan dari atas ke bawah, satu per satu, tanpa ada percabangan atau pengulangan.
+
+Contoh:
+```
+Langkah 1
+Langkah 2
+Langkah 3
+...
+```
+
+2. Percabangan (Branching): Struktur ini digunakan untuk membuat keputusan berdasarkan kondisi tertentu. Program akan memilih satu jalur eksekusi yang akan diambil berdasarkan hasil evaluasi kondisi.
+
+Contoh menggunakan struktur percabangan IF:
+```python
+if kondisi:
+    pernyataan1
+else:
+    pernyataan2
+```
+
+3. Perulangan (Looping): Struktur ini memungkinkan instruksi-instruksi dieksekusi berulang kali selama kondisi tertentu terpenuhi.
+
+Contoh menggunakan struktur perulangan FOR:
+```python
+for i in range(10):
+    pernyataan
+```
+
+4. Perulangan dengan Pengujian Awal (While Loop): Struktur ini memungkinkan instruksi-instruksi dieksekusi berulang kali selama kondisi tertentu terpenuhi pada awal perulangan.
+
+Contoh menggunakan struktur perulangan WHILE:
+```python
+while kondisi:
+    pernyataan
+```
+
+5. Struktur Pemilihan Bersarang (Nested Selection): Struktur ini menggabungkan beberapa pernyataan percabangan dalam satu blok. Setiap percabangan dievaluasi secara berurutan untuk memilih jalur eksekusi yang sesuai.
+
+Contoh:
+```python
+if kondisi1:
+    pernyataan1
+elif kondisi2:
+    pernyataan2
+else:
+    pernyataan3
+```
+
+6. Fungsi dan Prosedur: Struktur ini memungkinkan pemrogram untuk membagi program menjadi bagian-bagian yang terpisah untuk mempermudah pengorganisasian dan penggunaan kembali kode.
+
+Contoh:
+```python
+def nama_fungsi():
+    pernyataan
+
+nama_fungsi()  # pemanggilan fungsi
+```
+
+Struktur pemrograman membantu mengatur alur logika program, membuat kode lebih terstruktur, dan mempermudah pemeliharaan dan pengembangan selanjutnya. Pemilihan struktur pemrograman yang tepat tergantung pada kebutuhan dan kompleksitas program yang sedang dikembangkan.
+Ada beberapa hal yang perlu diperhatikan dalam struktur pemrograman yang baik:
+
+1. Keterbacaan (Readability): Struktur pemrograman harus mudah dibaca dan dimengerti oleh programmer lain yang membaca atau mengubah kode di masa depan. Menggunakan penamaan variabel yang deskriptif, memberikan komentar yang jelas, serta menjaga tata letak yang rapi dapat meningkatkan keterbacaan kode.
+
+2. Kepatuan (Coherence): Struktur pemrograman harus konsisten dan teratur. Hindari kebingungan dengan menjaga format penulisan yang konsisten, penggunaan spasi dan indentasi yang tepat, serta penggunaan konvensi penamaan yang umum di industri.
+
+3. Modularitas: Pisahkan kode ke dalam modul atau fungsi terpisah yang masing-masing bertanggung jawab atas tugas tertentu. Ini memungkinkan pemrogram untuk membagi program menjadi bagian yang lebih kecil, mudah dipahami, dan dapat digunakan kembali.
+
+4. Penggunaan Struktur Pemilihan yang Tepat: Gunakan struktur pemilihan yang sesuai dengan kebutuhan. Jika hanya ada dua pilihan, gunakan percabangan IF-ELSE. Jika ada beberapa kondisi yang harus dievaluasi, gunakan struktur SWITCH atau ELSE-IF. Pastikan penggunaan struktur pemilihan yang benar sesuai dengan logika program.
+
+5. Penggunaan Struktur Perulangan yang Tepat: Pilih struktur perulangan yang sesuai dengan situasi. Jika jumlah perulangan sudah diketahui sebelumnya, gunakan perulangan FOR. Jika perulangan berdasarkan kondisi tertentu, gunakan perulangan WHILE atau DO-WHILE. Pastikan penggunaan struktur perulangan yang tepat agar tidak menyebabkan kesalahan atau perulangan tak terbatas.
+
+6. Hindari Penggunaan Goto: Goto statement dapat memperumit alur eksekusi program dan membuat kode sulit dipahami. Sebaiknya hindari penggunaan goto statement dan gunakan struktur pemrograman yang lebih terstruktur seperti percabangan dan perulangan.
+
+7. Efisiensi: Pertimbangkan efisiensi dalam struktur pemrograman. Hindari melakukan operasi yang tidak perlu atau pengulangan yang berlebihan. Optimalkan penggunaan variabel, gunakan algoritma yang efisien, dan pertimbangkan penggunaan fungsi bawaan atau library yang dapat mempercepat proses.
+
+8. Penanganan Kesalahan: Pastikan ada penanganan kesalahan yang memadai dalam struktur pemrograman. Gunakan mekanisme penanganan kesalahan seperti try-catch atau exception handling untuk mengatasi situasi yang tidak terduga atau error dalam program.
+
+Dengan memperhatikan hal-hal di atas, struktur pemrograman akan lebih baik, lebih mudah dipahami, dan lebih mudah untuk dikelola dan dikembangkan di masa depan.
+===========================================================================================================================================================================================================================================================================================================================
+2.
+===========================================================================================================================================================================================================================================================================================================================
+3.
+===========================================================================================================================================================================================================================================================================================================================
+4.
+===========================================================================================================================================================================================================================================================================================================================
+5.SELECT * FROM tabel;
+INSERT INTO tabel (kolom1, kolom2) VALUES (nilai1, nilai2);
+UPDATE tabel SET kolom = nilai WHERE kondisi;
+DELETE FROM tabel WHERE kondisi;
+
+===========================================================================================================================================================================================================================================================================================================================
+6.Tahapan dalam merancang antarmuka pengguna (user interface) dapat bervariasi tergantung pada metodologi pengembangan perangkat lunak yang digunakan. Namun, secara umum, berikut adalah tahapan yang umum dalam merancang antarmuka pengguna:
+
+1. Penelitian dan Analisis Pengguna: Memahami pengguna potensial dari aplikasi atau sistem yang akan dirancang. Mengidentifikasi kebutuhan, preferensi, dan tujuan pengguna. Mengevaluasi konteks penggunaan dan tugas yang akan dilakukan.
+
+2. Perancangan Konseptual: Membuat sketsa awal atau prototipe kasar untuk menggambarkan tata letak elemen antarmuka utama, struktur informasi, dan alur interaksi. Fokus pada pengaturan elemen antarmuka utama dan navigasi.
+
+3. Desain Visual: Membuat desain visual yang menarik dan sesuai dengan identitas merek (branding) perusahaan atau sistem yang dirancang. Memilih palet warna, jenis huruf, ikon, dan elemen grafis lainnya untuk menciptakan antarmuka yang estetis dan mudah dibaca.
+
+4. Tata Letak dan Organisasi: Menentukan tata letak elemen-elemen antarmuka, termasuk menu, tombol, formulir, dan bagian lainnya. Memastikan tata letak yang intuitif, konsisten, dan sesuai dengan prinsip-prinsip desain yang baik.
+
+5. Interaksi dan Navigasi: Merancang interaksi antara pengguna dan antarmuka, termasuk navigasi antar halaman atau layar, animasi, respons terhadap tindakan pengguna, dan umpan balik visual. Memastikan pengalaman pengguna yang lancar dan intuitif.
+
+6. Responsif dan Adaptif: Memperhatikan desain responsif, yang memungkinkan antarmuka pengguna menyesuaikan diri dengan berbagai ukuran layar dan perangkat. Memastikan antarmuka dapat diakses dengan baik di desktop, tablet, dan perangkat seluler.
+
+7. Pengujian dan Evaluasi: Menguji antarmuka dengan pengguna potensial untuk menilai kegunaan, kepuasan, dan efisiensi. Menerima umpan balik dan mengidentifikasi area perbaikan yang mungkin. Melakukan iterasi dan perbaikan berdasarkan hasil pengujian.
+
+8. Implementasi dan Integrasi: Menerapkan desain antarmuka ke dalam pengembangan perangkat lunak yang sebenarnya. Mengintegrasikan antarmuka dengan backend dan fitur lainnya. Melakukan pengujian lebih lanjut untuk memastikan fungsionalitas yang baik.
+
+9. Dokumentasi dan Pelatihan: Membuat dokumentasi tentang penggunaan antarmuka pengguna, termasuk panduan pengguna dan materi pelatihan. Menyediakan dukungan dan pelatihan kepada pengguna untuk mengoptimalkan penggunaan sistem.
+
+10. Evaluasi Lanjutan: Melakukan evaluasi lanjutan terhadap antarmuka pengguna setelah implementasi dan penggunaan nyata. Mengumpulkan umpan balik pengguna dan melakukan perbaikan berkelanjutan untuk meningkatkan kualitas dan kepuasan pengguna.
+
+Tahapan ini dapat dilakukan secara iteratif, di mana
+===========================================================================================================================================================================================================================================================================================================================
+7.
+===========================================================================================================================================================================================================================================================================================================================
+8.Sistem operasi (operating system) adalah perangkat lunak yang bertugas mengelola sumber daya komputer dan menyediakan lingkungan yang diperlukan agar perangkat keras (hardware) dan perangkat lunak (software) dapat berinteraksi dan berfungsi secara efisien. Secara umum, sistem operasi merupakan lapisan perangkat lunak yang berada di antara pengguna dan perangkat keras komputer.
+
+Fungsi utama dari sistem operasi adalah:
+
+1. Manajemen Sumber Daya: Sistem operasi mengelola sumber daya komputer seperti CPU (Central Processing Unit), memori, perangkat input/output (I/O), dan ruang penyimpanan. Ini termasuk alokasi, penjadwalan, dan pemantauan penggunaan sumber daya agar efisien dan adil.
+
+2. Penyediaan Antarmuka Pengguna: Sistem operasi menyediakan antarmuka yang memungkinkan pengguna berinteraksi dengan komputer. Antarmuka pengguna bisa berupa command-line interface (CLI) yang berbasis teks atau graphical user interface (GUI) yang menggunakan ikon, menu, dan kontrol visual.
+
+3. Manajemen Proses: Sistem operasi mengatur dan menjalankan proses atau tugas yang berjalan di komputer. Ini melibatkan penjadwalan proses, pengaturan prioritas, pemantauan kinerja, dan alokasi sumber daya yang diperlukan.
+
+4. Manajemen Memori: Sistem operasi bertanggung jawab untuk mengatur dan mengelola memori komputer. Ini meliputi alokasi memori kepada proses, pemantauan penggunaan memori, dan pengelolaan virtual memory untuk mengoptimalkan penggunaan memori fisik.
+
+5. Manajemen File: Sistem operasi menyediakan sistem file yang memungkinkan pengguna untuk menyimpan, mengakses, dan mengatur file dan direktori di komputer. Ini melibatkan pembuatan, penghapusan, pemindahan, dan modifikasi file serta mengendalikan akses ke file.
+
+6. Komunikasi dan Jaringan: Sistem operasi mendukung komunikasi dan jaringan antara komputer yang terhubung. Ini melibatkan pengaturan protokol jaringan, manajemen koneksi, dan pemrosesan data yang dikirim melalui jaringan.
+
+Selain fungsi-fungsi utama tersebut, sistem operasi juga bertanggung jawab untuk menjaga keamanan sistem, mengelola error dan penanganan kesalahan, serta menyediakan layanan utilitas dan perangkat lunak tambahan.
+
+Berbagai sistem operasi yang tersedia termasuk Windows, macOS, Linux, Android, iOS, dan banyak lagi. Setiap sistem operasi memiliki karakteristik dan fitur yang berbeda, serta disesuaikan dengan jenis perangkat dan kebutuhan pengguna yang beragam.
+===========================================================================================================================================================================================================================================================================================================================
+9.GUI (Graphical User Interface) dan DOS (Disk Operating System) adalah dua jenis antarmuka pengguna yang berbeda yang digunakan dalam sistem komputer.
+
+1. GUI (Graphical User Interface):
+   - GUI menggunakan representasi visual seperti ikon, menu, dan elemen grafis lainnya untuk memungkinkan interaksi pengguna dengan komputer.
+   - Pengguna dapat menggunakan perangkat input seperti mouse atau layar sentuh untuk berinteraksi dengan elemen GUI.
+   - GUI menyediakan antarmuka yang lebih intuitif dan mudah digunakan, karena pengguna dapat berinteraksi dengan elemen visual yang lebih familier.
+   - Contoh GUI yang populer termasuk Windows dengan lingkungan desktop dan ikon-ikon, macOS dengan dock dan jendela aplikasi, dan Android dengan layar sentuh dan tampilan berbasis sentuhan.
+
+2. DOS (Disk Operating System):
+   - DOS adalah sistem operasi berbasis teks yang menggunakan command-line interface (CLI) untuk berinteraksi dengan pengguna.
+   - Pengguna menggunakan perintah teks untuk menjalankan tugas dan memanipulasi file dan direktori.
+   - DOS memiliki antarmuka yang lebih sederhana dan membutuhkan pengetikan perintah yang tepat untuk menjalankan tugas.
+   - DOS umumnya digunakan pada sistem komputer yang lebih tua atau dalam lingkungan yang lebih khusus, seperti pemrograman atau administrasi sistem.
+
+Perbedaan utama antara GUI dan DOS adalah bahwa GUI menggunakan representasi visual dan interaksi menggunakan elemen grafis, sementara DOS menggunakan command-line interface berbasis teks. GUI memberikan antarmuka yang lebih intuitif dan mudah digunakan, sementara DOS lebih cocok untuk pengguna yang lebih terbiasa dengan perintah teks dan memiliki kebutuhan yang lebih khusus.
+===========================================================================================================================================================================================================================================================================================================================
+10.
+===========================================================================================================================================================================================================================================================================================================================
+11
+===========================================================================================================================================================================================================================================================================================================================
+12
+===========================================================================================================================================================================================================================================================================================================================
+13
+===========================================================================================================================================================================================================================================================================================================================
+14
+===========================================================================================================================================================================================================================================================================================================================
+15
+===========================================================================================================================================================================================================================================================================================================================
+16
+===========================================================================================================================================================================================================================================================================================================================
+17
+===========================================================================================================================================================================================================================================================================================================================
+18
+===========================================================================================================================================================================================================================================================================================================================
+19
+===========================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,25 @@
+====================================siswa
+id pembayaran
+nisn
+nama
+id kelas
+Jurusan
+====================================pembayaran
+id pembayaran
+id petugas
+nisn
+pembayaran
+jumlah bayar
+tanggal bayar
+====================================kelas done
+id kelas
+kelas
+kejuruan
+====================================spp pebayaran done
+id spp
+opsi pembayaran
+==================================== Petugas
+id petugas
+nama petugas
+level petugas
+
